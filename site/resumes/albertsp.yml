@@ -1,0 +1,109 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    first_name: Albert
+    last_name: Sanchez
+
+    # Define yourself in 4-5 words
+    motto: Always try to be unstoppable
+
+    # Focus
+    focus: Software Development
+
+    # Career summary
+    summary: |
+      Currently training at 4Geeks Academy to become a Full-Stack Software Engineer,
+      with a background in Electronics Engineering. Passionate about building web
+      applications and always looking for new challenges to grow as a developer.
+
+      Previously worked in sports coordination and coaching, developing strong
+      leadership, communication, and teamwork skills that complement my technical journey.
+
+    # No profile picture provided
+    avatar: https://randomuser.me/api/portraits/men/1.jpg
+
+    # Contact Information
+    email: albertsp.dev@gmail.com
+
+    github: albertsp
+
+    # Languages
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Catalan
+        level: Native
+
+    # Interests
+    interests:
+      - item: Gaming
+
+      - item: Travel
+
+      - item: Coding / Open Source
+
+      - item: Basketball
+
+# Education
+education:
+    - degree: Electronics Engineering
+      university: University of Barcelona
+      time: 20XX - 20XX
+      details: |
+        Studied core principles of electronics and engineering, building a strong
+        analytical and problem-solving foundation.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Full-Stack Developer Bootcamp
+      university: 4Geeks Academy
+      time: 20XX - Present
+      details: |
+        Intensive full-stack development programme covering modern web technologies,
+        including JavaScript, React, Python, and REST APIs.
+
+          - Bullet point
+          - Bullet point
+
+# Work Experience
+experiences:
+    - role: Basketball Teams Coordinator
+      time: 20XX - 20XX
+      company: Your Organisation, Barcelona
+      details: |
+        Coordinated multiple basketball teams, managing schedules, logistics, and
+        communication between coaches, players, and club management.
+
+          - Organised training calendars and competition schedules
+          - Liaised between coaching staff and club administration
+
+    - role: Basketball Coach
+      time: 20XX - 20XX
+      company: Your Organisation, Barcelona
+      details: |
+        Coached basketball players of various age groups, designing training sessions
+        and developing players' technical and tactical skills.
+
+          - Delivered structured training programmes
+          - Mentored young athletes in teamwork and discipline
+
+# Skills
+skills:
+    toolset:
+      - name: JavaScript
+        level: 75%
+
+      - name: HTML & CSS
+        level: 80%
